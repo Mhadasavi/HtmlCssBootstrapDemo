@@ -1,11 +1,22 @@
 body {
   background-color: #dfecf0;
+  margin: 0;
+  text-align: center;
+}
+.top-container{
+  position: relative;
+  padding-top:100px;
 }
 h1 {
-  display: inline-block;
+  
+  margin-top: 0;
 }
-h3 {
+.h3-desc {
   display: inline-block;
+  margin-bottom: 1000px;
+}
+.pos-abs{
+  position: absolute;
 }
 .img-wd {
   position: relative;
@@ -58,4 +69,14 @@ h3 {
   position: absolute;
   left: 0px;
   top: 0px;
+}
+.angular{
+  position: absolute;
+  right: 350px;
+  top: 50px;
+}
+.react{
+  position:absolute;
+  left:350px;
+  bottom: 400px;
 }
