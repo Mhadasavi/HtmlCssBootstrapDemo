@@ -2,20 +2,27 @@ body {
   background-color: #dfecf0;
   margin: 0;
   text-align: center;
+  font-family: "Merriweather", serif;
 }
-.top-container{
+.top-container {
   position: relative;
-  padding-top:100px;
+  padding-top: 100px;
 }
 h1 {
-  
   margin-top: 0;
+  font-family: "Sacramento", cursive;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
 }
 .h3-desc {
   display: inline-block;
   margin-bottom: 1000px;
 }
-.pos-abs{
+.pos-abs {
   position: absolute;
 }
 .img-wd {
@@ -70,13 +77,13 @@ h1 {
   left: 0px;
   top: 0px;
 }
-.angular{
+.angular {
   position: absolute;
   right: 350px;
   top: 50px;
 }
-.react{
-  position:absolute;
-  left:350px;
+.react {
+  position: absolute;
+  left: 350px;
   bottom: 400px;
 }
