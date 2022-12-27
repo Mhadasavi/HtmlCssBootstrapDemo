@@ -1,10 +1,11 @@
 body {
-  background-color: #dfecf0;
+  
   margin: 0;
   text-align: center;
   font-family: "Merriweather", serif;
 }
 .top-container {
+  background-color: #dfecf0;
   position: relative;
   padding-top: 100px;
 }
@@ -86,4 +87,13 @@ h3 {
   position: absolute;
   left: 350px;
   bottom: 400px;
+}
+.circular{
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+.profile-customSize{
+  width: 100px; height:100px;
 }
